@@ -33,7 +33,7 @@ Rails.application.routes.draw do
   # 測試用
   get "test", to: "home#test"
   get "debug", to: "home#debug"
-  get "tpu", to: "home#tpu#index.html"
+  get "tpu", to: "home_tpu#index.html"
 
   # 查詢當下的使用者
   get "profile", to: "home#profile"
