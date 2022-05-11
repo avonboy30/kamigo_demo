@@ -35,7 +35,8 @@ Rails.application.routes.draw do
   get "debug", to: "home#debug"
   get "tpu", to: "weather#index.html"
   get "dist", to: "weather#dist#"
-
+  get "image", to: "weather#image"
+  
   # 查詢當下的使用者
   get "profile", to: "home#profile"
 
